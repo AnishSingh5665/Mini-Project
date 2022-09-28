@@ -1,0 +1,168 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+ }
+.menu-bar
+{
+   background:rgb(54, 165, 165);
+   text-align: center ;
+   height: 3cm;
+
+}
+/**.menu-bar .fa
+{
+margin-right: 8px;
+}**/
+.menu-bar ul
+{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+.menu-bar ul li
+{
+   width : 120px;
+   margin : 15px;
+   padding : 15px; 
+}
+.menu-bar ul li a
+{
+text-decoration:none;
+color: #fff;
+}
+.active,.menu-bar ul li:hover
+{
+  background:rgb(2, 108, 108); 
+  border-radius: 3px;
+}
+.pj-ashu{
+
+ background-color: rgb(211, 239, 252);
+ /* margin: 30px; ; */
+ padding: 30px;
+ border-radius: 10px;
+}
+
+header h1{
+ text-align: left;
+ font-size: 30px;
+ color: rgb(5, 1, 9);;
+
+} 
+
+
+.bar{
+    
+   background-color: rgb(2, 108, 108);
+   border-radius: 10px;
+   padding-top: 20px;
+   padding-bottom: 20px; 
+   justify-content: space-around;
+   
+
+}
+
+.right-align
+{
+ margin-left:25cm;
+}
+.carousel-inner
+{
+ height: 10%;
+ padding: 50px;
+}
+
+.sub-menu-1
+{
+display:none;
+}
+
+.menu-bar ul li:hover .sub-menu-1
+{
+  z-index: 10;
+display:block;
+position:absolute;
+background:rgb(82, 87, 87);
+margin-top: 15px;
+margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+display: block;
+margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+width: 90px;
+padding: 5px;
+border-bottom: 2px dotted rgb(252, 250, 250);
+background: transparent;
+border-radius: 10;
+text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+color:#14a5c9;
+}
+
+.sub-menu-2
+{
+  display:none;
+}
+.hover-me:hover .sub-menu-2
+{
+  z-index: 10;
+position:absolute;
+display:block;
+margin-top:-40px;
+margin-left:140px;
+background:rgb(2, 108, 108);
+}
+.fa-angle-right
+{
+ float:right;
+}
+.fa-facebook
+{
+  float:right;
+  
+}
+.fa-twitter
+{
+  float:right;
+  
+}
+.fa-instagram
+{
+  float:right;
+  
+}
+/*
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color: rgb(205, 205, 237);">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+              </a>
+              <span class="text-muted">&copy; 2022 Company, Inc</span>
+            </div>
+        
+            <i class="bi bi-twitter"></i>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a href="#" class="fa fa-facebook" style="width: 20; height: 20;"></a></li>
+              <li class="ms-3"><a href="#" class="fa fa-twitter" style="width: 20; height: 20;"></a></li>
+              <li class="ms-3"><a href="#" class="fa fa-instagram" style="width: 20; height: 20;"></a></li>
+            </ul>
+          </footer>
+
+          */
